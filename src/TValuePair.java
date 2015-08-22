@@ -7,4 +7,8 @@ public class TValuePair {
 		value1 = i;
 		value2=j;
 	}
+	
+	public void  printValueStdout(){
+		System.out.println("value1="+ value1 +", value2="+value2 );
+	}
 }
